@@ -27,17 +27,17 @@ export default function Home() {
         <a className="nav-logo" href="#">
           <div className="logo-mark">
             <svg viewBox="0 0 20 20" fill="none">
-              <polygon points="10,2 18,18 2,18" stroke="#1a6b47" strokeWidth="1.5" fill="rgba(26,107,71,0.1)" />
-              <polygon points="10,7 15,16 5,16" fill="rgba(26,107,71,0.18)" />
+              <polygon points="10,2 18,18 2,18" stroke="#C2603F" strokeWidth="1.5" fill="rgba(194,96,63,0.1)" />
+              <polygon points="10,7 15,16 5,16" fill="rgba(194,96,63,0.18)" />
             </svg>
           </div>
           Triad Labs
         </a>
         <ul className="nav-links">
-          <li><a href="#how">How we work</a></li>
-          <li><a href="#what-you-get">What you get</a></li>
-          <li><a href="#pricing">Pricing</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#why">Why a studio</a></li>
+          <li><a href="#how">How we build</a></li>
+          <li><a href="#story">Our story</a></li>
+          <li><a href="#faq">FAQ</a></li>
         </ul>
         <a href="#contact" className="nav-cta">Work with us</a>
       </nav>
@@ -46,65 +46,65 @@ export default function Home() {
       <section className="hero">
         <div className="hero-inner">
           <div>
-            <div className="hero-eyebrow">AI-Native Studio</div>
+            <div className="hero-eyebrow">AI-native venture studio</div>
             <h1 className="hero-head">
-              <span className="ln"><span className="wd">We make</span></span>
-              <span className="ln"><span className="wd">companies</span></span>
-              <span className="ln"><span className="wd"><em>AI native.</em></span></span>
+              <span className="ln"><span className="wd">We build the products</span></span>
+              <span className="ln"><span className="wd">we wish existed.</span></span>
+              <span className="ln"><span className="wd">Right now, <em>that&apos;s Zodus.</em></span></span>
             </h1>
             <p className="hero-sub">
-              Triad Labs embeds autonomous AI systems across your organisation — so your team moves faster, thinks bigger, and operates at a level that wasn&apos;t possible before.
+              Triad Labs is a studio of builders turning real problems into shipped products. Our current focus: Zodus — company memory for teams that live in Slack.
             </p>
             <div className="hero-actions">
-              <a href="#contact" className="btn-primary">Start the conversation</a>
-              <a href="#how" className="btn-text">How it works <span className="arr">→</span></a>
+              <a href="https://zodus.ai/" target="_blank" rel="noopener noreferrer" className="btn-primary">Meet Zodus <span className="arr">↗</span></a>
+              <a href="#how" className="btn-text">How we build <span className="arr">→</span></a>
             </div>
           </div>
 
           <div className="hero-visual">
             <div className="hv-card">
               <div className="hv-top">
-                <span className="hv-label">Organisation — Agent Network</span>
-                <span className="hv-status"><span className="hv-dot"></span>Active</span>
+                <span className="hv-label">Zodus — Company memory</span>
+                <span className="hv-status"><span className="hv-dot"></span>Live</span>
               </div>
               <div className="agent-nodes">
                 <div className="an-row">
-                  <div className="an-icon orch">ORC</div>
+                  <div className="an-icon orch">DEC</div>
                   <div className="an-body">
-                    <div className="an-name">Orchestrator</div>
-                    <div className="an-task">Routing tasks across team</div>
+                    <div className="an-name">Decisions</div>
+                    <div className="an-task">Captured from threads</div>
                   </div>
                   <div className="an-bar"><div className="an-fill"></div></div>
                 </div>
                 <div className="an-row">
-                  <div className="an-icon plan">PLN</div>
+                  <div className="an-icon plan">ANS</div>
                   <div className="an-body">
-                    <div className="an-name">Planner</div>
-                    <div className="an-task">BD digest · proposal queue</div>
+                    <div className="an-name">Answers</div>
+                    <div className="an-task">In plain language, with sources</div>
                   </div>
                   <div className="an-bar"><div className="an-fill"></div></div>
                 </div>
                 <div className="an-row">
-                  <div className="an-icon exec">EXE</div>
+                  <div className="an-icon exec">FLW</div>
                   <div className="an-body">
-                    <div className="an-name">Executor × 4</div>
-                    <div className="an-task">Research · drafts · CRM sync</div>
+                    <div className="an-name">Workflows</div>
+                    <div className="an-task">How you did it last time</div>
                   </div>
                   <div className="an-bar"><div className="an-fill"></div></div>
                 </div>
                 <div className="an-row">
                   <div className="an-icon mem">MEM</div>
                   <div className="an-body">
-                    <div className="an-name">Memory Layer</div>
-                    <div className="an-task">Context · brand · SOPs</div>
+                    <div className="an-name">Memory</div>
+                    <div className="an-task">Slack first · then email, docs</div>
                   </div>
                   <div className="an-bar"><div className="an-fill"></div></div>
                 </div>
               </div>
               <div className="hv-footer">
-                <div className="hv-stat"><span className="hv-stat-n">24/7</span><span className="hv-stat-l">Always on</span></div>
-                <div className="hv-stat"><span className="hv-stat-n">~15h</span><span className="hv-stat-l">Saved / person / wk</span></div>
-                <div className="hv-stat"><span className="hv-stat-n">Flat</span><span className="hv-stat-l">Per-org pricing</span></div>
+                <div className="hv-stat"><span className="hv-stat-n">Slack</span><span className="hv-stat-l">Where you work</span></div>
+                <div className="hv-stat"><span className="hv-stat-n">$100</span><span className="hv-stat-l">Free credits</span></div>
+                <div className="hv-stat"><span className="hv-stat-n">Live</span><span className="hv-stat-l">zodus.ai</span></div>
               </div>
             </div>
           </div>
@@ -114,262 +114,252 @@ export default function Home() {
       {/* TICKER */}
       <div className="strip">
         <div className="strip-track">
-          <span className="strip-item">Autonomous Agents</span>
-          <span className="strip-item">AI Native Transformation</span>
-          <span className="strip-item">Multi-Agent Systems</span>
-          <span className="strip-item">Shared Agent Libraries</span>
-          <span className="strip-item">Workflow Automation</span>
-          <span className="strip-item">Future Ready</span>
-          <span className="strip-item">Autonomous Agents</span>
-          <span className="strip-item">AI Native Transformation</span>
-          <span className="strip-item">Multi-Agent Systems</span>
-          <span className="strip-item">Shared Agent Libraries</span>
-          <span className="strip-item">Workflow Automation</span>
-          <span className="strip-item">Future Ready</span>
+          <span className="strip-item">Venture studio</span>
+          <span className="strip-item">Idea to MVP in days</span>
+          <span className="strip-item">Operators, not consultants</span>
+          <span className="strip-item">Company memory</span>
+          <span className="strip-item">Shipped, not slideware</span>
+          <span className="strip-item">Built to compound</span>
+          <span className="strip-item">Venture studio</span>
+          <span className="strip-item">Idea to MVP in days</span>
+          <span className="strip-item">Operators, not consultants</span>
+          <span className="strip-item">Company memory</span>
+          <span className="strip-item">Shipped, not slideware</span>
+          <span className="strip-item">Built to compound</span>
         </div>
       </div>
 
-      {/* POSITIONING */}
-      <section className="sec pos-sec" id="about">
+      {/* WHY A STUDIO */}
+      <section className="sec pos-sec" id="why">
         <div className="sec-inner">
           <div className="pos-grid reveal">
             <div className="pos-copy">
-              <div className="s-label">Why it matters</div>
-              <h2 className="s-head">Most companies are using AI.<br />Few are <em>built on it.</em></h2>
-              <div style={{ marginTop: '2rem' }}>
-                <p>There&apos;s a difference between having a ChatGPT subscription and having AI woven into how your organisation actually operates — how it thinks, moves, and makes decisions.</p>
-                <p>We close that gap. Triad Labs designs and deploys <strong>autonomous agent systems</strong> that become the connective tissue of your company — handling the cognitive overhead so your people can focus on the work that matters.</p>
-                <p>The result isn&apos;t just efficiency. It&apos;s a <strong>fundamentally different way of operating</strong> — one your competitors won&apos;t catch up to easily.</p>
+              <div className="s-label">Why a studio</div>
+              <h2 className="s-head">Everyone has ideas.<br />Few <em>actually ship them.</em></h2>
+              <div>
+                <p>There&apos;s a difference between talking about building and actually shipping a product that people use.</p>
+                <p>Triad Labs is a venture studio that builds — we run experiments against real problems, get a working MVP into users&apos; hands fast, and back the ones that work.</p>
+                <p>One narrow problem, solved deeply, <strong>compounded over time</strong>. That&apos;s how we pick what to build.</p>
               </div>
             </div>
             <div className="pos-right">
               <div className="pos-item">
-                <div className="pi-num">01</div>
-                <div className="pi-title">From tool users to AI-native teams</div>
-                <div className="pi-desc">Every person gets their own orchestrator and a library of agents built for their role — not generic, not off-the-shelf.</div>
+                <div className="pi-title">Operators, not consultants</div>
+                <div className="pi-desc">Every Triad project is a product we own and run ourselves — never a deliverable for someone else.</div>
               </div>
               <div className="pos-item">
-                <div className="pi-num">02</div>
-                <div className="pi-title">Shared intelligence across the org</div>
-                <div className="pi-desc">Brand, legal, ops, and revenue agents live in a shared library — built once, available to everyone, improving over time.</div>
+                <div className="pi-title">One problem, solved deeply</div>
+                <div className="pi-desc">One narrow problem, compounded over time. That&apos;s how we choose what to build — and what to ignore.</div>
               </div>
               <div className="pos-item">
-                <div className="pi-num">03</div>
-                <div className="pi-title">Systems that compound</div>
-                <div className="pi-desc">Agents learn from every run. The longer they operate, the more context they accumulate — and the more useful they become.</div>
+                <div className="pi-title">MVP in days, not quarters</div>
+                <div className="pi-desc">We get a working product in front of real users fast, learn what&apos;s true, and back the bets that work.</div>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* HOW WE WORK */}
+      {/* HOW WE BUILD */}
       <section className="sec how-sec" id="how">
         <div className="sec-inner">
           <div className="reveal">
-            <div className="s-label">How we work</div>
-            <h2 className="s-head">Three months.<br />Permanently transformed.</h2>
+            <div className="s-label">How we build</div>
+            <h2 className="s-head">From idea to live. <em>Fast.</em></h2>
           </div>
           <div className="how-grid reveal">
             <div className="how-card">
-              <span className="hc-num">Month 01 — Build</span>
-              <h3 className="hc-title">Map, configure,<br />go live.</h3>
-              <p className="hc-desc">We map your workflows, configure machines remotely, and get your first agents live within the first week. Shared library deployed. Key roles up and running.</p>
+              <span className="hc-num">Step 01 — Find</span>
+              <h3 className="hc-title">We find a problem<br />worth solving.</h3>
+              <p className="hc-desc">We run experiments against real problems — job search, workplace engagement, conservation. If it matters and we can build it, we start.</p>
               <div className="hc-tags">
-                <span className="hc-tag">Workflow mapping</span>
-                <span className="hc-tag">Machine config</span>
-                <span className="hc-tag">Agent library</span>
-                <span className="hc-tag">Live in week 1</span>
+                <span className="hc-tag">Real problems</span>
+                <span className="hc-tag">Experiments</span>
+                <span className="hc-tag">Job search</span>
+                <span className="hc-tag">Conservation</span>
               </div>
             </div>
             <div className="how-card">
-              <span className="hc-num">Month 02 — Scale</span>
-              <h3 className="hc-title">Full team.<br />Full coverage.</h3>
-              <p className="hc-desc">Every team member onboarded with their own orchestrator. Revenue agents — BD pipeline, lead prep, proposals — running autonomously. Observability layer added so you can see exactly what&apos;s working.</p>
+              <span className="hc-num">Step 02 — Ship</span>
+              <h3 className="hc-title">We ship<br />the MVP.</h3>
+              <p className="hc-desc">Design, engineering, and growth in one tight loop. We build a working product, put it in front of users, and learn what&apos;s true.</p>
               <div className="hc-tags">
-                <span className="hc-tag">Full onboarding</span>
-                <span className="hc-tag">Revenue agents</span>
-                <span className="hc-tag">Usage dashboard</span>
-                <span className="hc-tag">Performance data</span>
+                <span className="hc-tag">Design</span>
+                <span className="hc-tag">Engineering</span>
+                <span className="hc-tag">Growth</span>
+                <span className="hc-tag">Real users</span>
               </div>
             </div>
             <div className="how-card">
-              <span className="hc-num">Month 03 — Expand</span>
-              <h3 className="hc-title">Studios, portfolio,<br />beyond.</h3>
-              <p className="hc-desc">Extend the system to subsidiary teams, venture studios, or portfolio companies. We deliver a playbook so you can roll it out independently at scale.</p>
+              <span className="hc-num">Step 03 — Scale</span>
+              <h3 className="hc-title">We take it<br />to market.</h3>
+              <p className="hc-desc">Winning experiments become real products — Zeke is live, OnBloom is next. We back the bets that work and scale them.</p>
               <div className="hc-tags">
-                <span className="hc-tag">Studio rollout</span>
-                <span className="hc-tag">Portfolio ready</span>
-                <span className="hc-tag">Expansion playbook</span>
-                <span className="hc-tag">100+ company scale</span>
+                <span className="hc-tag">Zeke live</span>
+                <span className="hc-tag">OnBloom next</span>
+                <span className="hc-tag">Back winners</span>
+                <span className="hc-tag">Scale</span>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* PROOF */}
-      <section className="sec proof-sec">
+      {/* OUR STORY */}
+      <section className="sec proof-sec" id="story">
         <div className="sec-inner">
           <div className="proof-inner reveal">
             <div>
-              <div className="s-label">Results</div>
-              <h2 className="s-head">The numbers<br />speak clearly.</h2>
-              <div className="proof-quote" style={{ marginTop: '2.5rem' }}>
-                <p className="pq-text">&ldquo;Triad built a 300+ agent system across our studio. We got back <em>36 hours a week</em> — time that used to disappear into admin and manual pipeline work.&rdquo;</p>
-                <div className="pq-attr"><span>Studio Head</span> — Venture Studio, 2024</div>
+              <div className="s-label">Our story</div>
+              <h2 className="s-head">Two builders.<br />One muscle: <em>shipping.</em></h2>
+              <div className="proof-quote">
+                <p className="pq-text">&ldquo;We met building together at hackathons — <em>shipping working products in 48 hours</em> — and that&apos;s the same muscle behind everything we build today.&rdquo;</p>
+                <div className="pq-attr">
+                  <span><strong>Varun &amp; Ferran</strong> — Founders, Triad Labs</span>
+                </div>
               </div>
             </div>
             <div className="proof-stats">
-              <div className="ps-cell"><span className="ps-n">300+</span><span className="ps-l">Agents deployed</span></div>
-              <div className="ps-cell"><span className="ps-n">36h</span><span className="ps-l">Saved per week</span></div>
-              <div className="ps-cell"><span className="ps-n">~$1.8M</span><span className="ps-l">Estimated yr 1 value</span></div>
-              <div className="ps-cell"><span className="ps-n">4 wks</span><span className="ps-l">To full deployment</span></div>
+              <div className="ps-cell"><span className="ps-n">Zodus</span><span className="ps-l">Company memory for Slack · live</span></div>
+              <div className="ps-cell"><span className="ps-n">Zeke</span><span className="ps-l">Shipped &amp; live</span></div>
+              <div className="ps-cell"><span className="ps-n">OnBloom</span><span className="ps-l">Launching next</span></div>
+              <div className="ps-cell"><span className="ps-n">48h</span><span className="ps-l">Our hackathon origin</span></div>
+            </div>
+            <div className="people">
+              <div className="people-faces">
+                <span className="people-face"><img src="/peeps/peep-3.png" alt="Varun" /></span>
+                <span className="people-face"><img src="/peeps/peep-7.png" alt="Ferran" /></span>
+              </div>
+              <p className="people-copy"><strong>Made by Varun and Ferran.</strong> Builders who ship — and who&apos;d love to compare notes on what you&apos;re working on.</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* WHAT YOU GET */}
-      <section className="sec get-sec" id="what-you-get">
+      {/* NOW BUILDING — ZODUS */}
+      <section className="sec get-sec" id="zodus">
         <div className="sec-inner">
           <div className="reveal">
-            <div className="s-label">What you get</div>
-            <h2 className="s-head">Everything your org<br />needs to run on AI.</h2>
+            <div className="s-label">Now building</div>
+            <h2 className="s-head">Zodus — <em>company memory</em><br />for teams that live in Slack.</h2>
           </div>
           <div className="get-grid reveal">
             <div className="get-card">
               <div className="gc-icon">◈</div>
-              <h3 className="gc-title">Personal Orchestrators</h3>
-              <p className="gc-desc">Every person gets their own AI orchestrator — configured for their role, their tools, their workflow.</p>
+              <h3 className="gc-title">Decisions</h3>
+              <p className="gc-desc">Captured straight from your threads — the call, the context, and the why, without anyone writing it up.</p>
               <ul className="gc-list">
-                <li>Role-specific configuration</li>
-                <li>3–6 specialised task agents</li>
-                <li>Remote setup included</li>
-                <li>Onboarding per team member</li>
+                <li>Pulled from Slack threads</li>
+                <li>Keeps the full context</li>
+                <li>Searchable forever</li>
               </ul>
             </div>
             <div className="get-card">
               <div className="gc-icon">⬡</div>
-              <h3 className="gc-title">Shared Agent Library</h3>
-              <p className="gc-desc">A cross-org library of agents anyone can use — built once, maintained by us, improving over time.</p>
+              <h3 className="gc-title">Answers</h3>
+              <p className="gc-desc">In plain language, with sources — so anyone can get unstuck without pinging the whole team again.</p>
               <ul className="gc-list">
-                <li>Brand voice agent</li>
-                <li>SOW &amp; legal review</li>
-                <li>BD pipeline + CRM sync</li>
-                <li>Proposal drafter</li>
-                <li>Daily intelligence digest</li>
+                <li>Plain-language replies</li>
+                <li>Linked back to the source</li>
+                <li>Self-serve, day one</li>
               </ul>
             </div>
             <div className="get-card">
               <div className="gc-icon">▣</div>
-              <h3 className="gc-title">Observability Layer</h3>
-              <p className="gc-desc">See exactly where time is being saved, which agents are being used, and where to go next.</p>
+              <h3 className="gc-title">Workflows</h3>
+              <p className="gc-desc">How you did it last time, ready to reuse — the playbook your team keeps relearning from scratch.</p>
               <ul className="gc-list">
-                <li>Usage dashboard</li>
-                <li>Adoption tracking</li>
-                <li>Monthly performance reports</li>
-                <li>48-hour issue SLA</li>
-                <li>Expansion roadmap</li>
+                <li>Captured playbooks</li>
+                <li>Reusable, step by step</li>
+                <li>Onboard people faster</li>
               </ul>
             </div>
           </div>
+          <div className="zodus-cta reveal">
+            <a href="https://zodus.ai/" target="_blank" rel="noopener noreferrer" className="btn-primary">Meet Zodus <span className="arr">↗</span></a>
+            <span className="zodus-note">Memory starts in Slack — then email, docs, and the rest of where work happens.</span>
+          </div>
         </div>
       </section>
 
-      {/* PRICING */}
-      <section className="sec pricing-sec" id="pricing">
+      {/* FAQ */}
+      <section className="sec faq-sec" id="faq">
         <div className="sec-inner">
           <div className="reveal">
-            <div className="s-label">Pricing</div>
-            <h2 className="s-head">Simple. Flat.<br />Org-wide.</h2>
+            <div className="s-label">FAQ</div>
+            <h2 className="s-head">Questions, <em>answered.</em></h2>
           </div>
-          <div className="pricing-layout reveal">
-            <div className="pricing-card">
-              <div className="pc-price">
-                <span className="pc-num">$5k</span>
-                <span className="pc-per">/ week · flat rate</span>
-              </div>
-              <div className="pc-note">
-                <strong>$20,000 / month</strong> · 3-month retainer<br />
-                Covers your entire organisation. API costs run through your own keys — you stay in control of your data and spend.
-              </div>
-              <div className="pc-includes">
-                <div className="pc-inc">Personal orchestrator per team member</div>
-                <div className="pc-inc">Shared agent library, org-wide</div>
-                <div className="pc-inc">Machine setup &amp; remote configuration</div>
-                <div className="pc-inc">SOW, brand, legal &amp; BD agents</div>
-                <div className="pc-inc">Observability dashboard &amp; reporting</div>
-                <div className="pc-inc">48-hour SLA on bugs and issues</div>
-                <div className="pc-inc">Studio / portfolio expansion playbook</div>
-                <div className="pc-inc">All design, build, and maintenance</div>
-              </div>
-              <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' as const }}>
-                <a href="#contact" className="btn-primary">Start the engagement</a>
-                <a href="mailto:hello@triadlabs.ai" className="btn-text">Email us <span className="arr">→</span></a>
-              </div>
-            </div>
-            <div className="pricing-right">
-              <h3 className="pr-title">Not per user.<br />Not per machine.</h3>
-              <p className="pr-text">One flat rate covers your entire organisation — 10 people or 100. We&apos;ve structured it this way because it <strong>aligns our incentives with yours</strong>: we want every single person using it.</p>
-              <hr className="pr-rule" />
-              <h3 className="pr-title">The return.</h3>
-              <p className="pr-text">At ~15 hours saved per person per week, a 23-person team recovers <strong>$34,500 of productive time weekly</strong>. That&apos;s a 6.9× return in week one — before compounding.</p>
-              <hr className="pr-rule" />
-              <h3 className="pr-title">What happens after.</h3>
-              <p className="pr-text">You own everything we build. Most clients continue on a lighter retainer for maintenance and expansion — rolling out to studios and portfolio companies.</p>
-            </div>
+          <div className="faq-list reveal">
+            <details className="faq-item">
+              <summary>What does Triad Labs do?<span className="faq-mark"></span></summary>
+              <p>We&apos;re a venture studio. We design, build, and ship our own products — we don&apos;t consult or advise. Right now our focus is Zodus, company memory for teams that live in Slack.</p>
+            </details>
+            <details className="faq-item">
+              <summary>What are you building right now?<span className="faq-mark"></span></summary>
+              <p>Zodus is the current flagship — company memory that captures decisions, answers, and workflows from Slack. We&apos;ve also shipped Zeke and OnBloom.</p>
+            </details>
+            <details className="faq-item">
+              <summary>Do you take on client work?<span className="faq-mark"></span></summary>
+              <p>No. We&apos;re operators, not consultants. Every Triad project is a product we own and run ourselves, not a deliverable for someone else.</p>
+            </details>
+            <details className="faq-item">
+              <summary>How do you decide what to build?<span className="faq-mark"></span></summary>
+              <p>One narrow problem, solved deeply, compounded over time. We run experiments against real problems, get a working MVP in front of users fast, and back the ones that work.</p>
+            </details>
+            <details className="faq-item">
+              <summary>Who&apos;s behind Triad?<span className="faq-mark"></span></summary>
+              <p>Varun and Ferran. We met building together at hackathons — shipping working products in 48 hours — and that&apos;s the same muscle behind everything we build today.</p>
+            </details>
+            <details className="faq-item">
+              <summary>How do I get in touch?<span className="faq-mark"></span></summary>
+              <p>Reach out at founders@triadlabs.ai. Whether you want to partner, invest, or just compare notes on what we&apos;re building, we&apos;d love to hear from you.</p>
+            </details>
           </div>
         </div>
       </section>
 
-      {/* CTA */}
+      {/* CONTACT / CTA */}
       <section className="cta-sec" id="contact">
         <div className="cta-inner">
           <div className="cta-left reveal">
-            <div className="s-label">Get started</div>
-            <h2 className="cta-head">Ready to become<br /><em>AI native?</em></h2>
-            <p className="cta-sub">Drop your email and we&apos;ll set up a workflow mapping call — usually within 48 hours. No decks. Just a conversation about what your organisation needs.</p>
-            <div className="cta-form">
-              <input className="cta-input" type="email" placeholder="your@company.com" />
-              <button className="cta-btn">Let&apos;s talk →</button>
+            <div className="s-label">Work with us</div>
+            <h2 className="cta-head">We&apos;ve implemented AI in startups and <em>enterprises.</em></h2>
+            <p className="cta-sub">From zero-to-one products to AI inside established teams — if you&apos;re figuring out where AI actually fits, let&apos;s talk.</p>
+            <div className="cta-actions">
+              <a href="mailto:founders@triadlabs.ai?subject=AI%20consultation" className="cta-btn">Schedule a consultation <span className="arr">→</span></a>
             </div>
             <div className="cta-or">or</div>
-            <div className="cta-email">Reach us directly at <a href="mailto:hello@triadlabs.ai">hello@triadlabs.ai</a></div>
+            <div className="cta-email">Reach us directly at <a href="mailto:founders@triadlabs.ai">founders@triadlabs.ai</a></div>
           </div>
 
           <div className="cta-visual reveal">
             <div className="cv-row">
-              <span className="cvr-label">Engagement</span>
-              <span className="cvr-val green">3-month retainer</span>
+              <span className="cvr-label">Studio</span>
+              <span className="cvr-val green">Operators, not consultants</span>
             </div>
             <div className="cv-row">
-              <span className="cvr-label">First agents live</span>
-              <span className="cvr-val green">Week 1</span>
+              <span className="cvr-label">Flagship</span>
+              <span className="cvr-val green">Zodus · live</span>
             </div>
             <div className="cv-row">
-              <span className="cvr-label">Full team onboarded</span>
-              <span className="cvr-val dim">Month 2</span>
+              <span className="cvr-label">Also shipped</span>
+              <span className="cvr-val dim">Zeke · OnBloom</span>
             </div>
             <div className="cv-row">
-              <span className="cvr-label">Studios expanded</span>
-              <span className="cvr-val dim">Month 3</span>
+              <span className="cvr-label">Founders</span>
+              <span className="cvr-val dim">Varun &amp; Ferran</span>
             </div>
             <div className="cv-row">
-              <span className="cvr-label">SLA</span>
-              <span className="cvr-val dim">48-hour response</span>
+              <span className="cvr-label">Idea to MVP</span>
+              <span className="cvr-val dim">In days, not quarters</span>
             </div>
             <div className="cv-row">
-              <span className="cvr-label">Pricing model</span>
-              <span className="cvr-val dim">Flat rate · org-wide</span>
+              <span className="cvr-label">Client work</span>
+              <span className="cvr-val dim">We build our own</span>
             </div>
             <div className="cv-row">
-              <span className="cvr-label">Your data</span>
-              <span className="cvr-val dim">Your keys · your control</span>
-            </div>
-            <div className="cv-row">
-              <span className="cvr-label">Estimated yr 1 value</span>
-              <span className="cvr-val green">~$1.8M recovered</span>
+              <span className="cvr-label">Reach us</span>
+              <span className="cvr-val green">founders@triadlabs.ai</span>
             </div>
           </div>
         </div>
@@ -382,34 +372,35 @@ export default function Home() {
             <div className="ft-brand">
               <a className="nav-logo" href="#">
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                  <polygon points="10,2 18,18 2,18" stroke="#1a6b47" strokeWidth="1.5" fill="rgba(26,107,71,0.1)" />
-                  <polygon points="10,7 15,16 5,16" fill="rgba(26,107,71,0.18)" />
+                  <polygon points="10,2 18,18 2,18" stroke="#C2603F" strokeWidth="1.5" fill="rgba(194,96,63,0.1)" />
+                  <polygon points="10,7 15,16 5,16" fill="rgba(194,96,63,0.18)" />
                 </svg>
                 Triad Labs
               </a>
-              <p className="ft-desc">AI-native studio. We make companies future ready. triadlabs.ai</p>
+              <p className="ft-desc">An AI-native venture studio. We build and launch useful products — idea to MVP in days. triadlabs.ai</p>
             </div>
             <div className="ft-col">
-              <span className="ft-col-head">Services</span>
+              <span className="ft-col-head">Studio</span>
               <ul>
-                <li><a href="#how">How we work</a></li>
-                <li><a href="#what-you-get">What you get</a></li>
-                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#why">Why a studio</a></li>
+                <li><a href="#how">How we build</a></li>
+                <li><a href="#zodus">Now building Zodus</a></li>
               </ul>
             </div>
             <div className="ft-col">
               <span className="ft-col-head">Company</span>
               <ul>
-                <li><a href="#about">About</a></li>
+                <li><a href="#story">Our story</a></li>
+                <li><a href="#faq">FAQ</a></li>
                 <li><a href="#">Blog</a></li>
               </ul>
             </div>
             <div className="ft-col">
               <span className="ft-col-head">Contact</span>
               <ul>
-                <li><a href="mailto:hello@triadlabs.ai">hello@triadlabs.ai</a></li>
+                <li><a href="mailto:founders@triadlabs.ai">founders@triadlabs.ai</a></li>
+                <li><a href="https://zodus.ai/" target="_blank" rel="noopener noreferrer">Zodus ↗</a></li>
                 <li><a href="#">LinkedIn</a></li>
-                <li><a href="#">Twitter / X</a></li>
               </ul>
             </div>
           </div>
